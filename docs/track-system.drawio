@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="tp4DKw_1HrOBRlLX_yFJ">
+    <mxGraphModel dx="685" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="[Frontend (Next.js)]&lt;br&gt;     |&lt;br&gt;     v&lt;br&gt;[API Backend (NestJS)] --&amp;gt; [Apache Kafka] --&amp;gt; [API Go (Simulador)]" id="jFSukaoy9JhFMh-M_POS-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="190" width="390" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-2" value="Frontend&lt;div&gt;nextjs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-5" target="jFSukaoy9JhFMh-M_POS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-5" target="jFSukaoy9JhFMh-M_POS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-5" value="backend&lt;div&gt;nestjs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-6" target="jFSukaoy9JhFMh-M_POS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.211;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-6" target="jFSukaoy9JhFMh-M_POS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-6" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-7" value="Simulador&lt;div&gt;golang&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-8" value="Google Maps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-2" target="jFSukaoy9JhFMh-M_POS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="220" as="sourcePoint" />
+            <mxPoint x="240" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.811;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-7" target="jFSukaoy9JhFMh-M_POS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-8" target="jFSukaoy9JhFMh-M_POS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jFSukaoy9JhFMh-M_POS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.557;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jFSukaoy9JhFMh-M_POS-5" target="jFSukaoy9JhFMh-M_POS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
