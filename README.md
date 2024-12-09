@@ -2,7 +2,7 @@
 
 # Sistema de Rastreamento de veiculo em tempo real
 
-![alt text](image.png)
+![alt text](docs/image.png)
 
 ### funcionalidades
 
