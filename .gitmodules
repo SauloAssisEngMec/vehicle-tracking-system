@@ -1,0 +1,3 @@
+[submodule "nest-api"]
+    path = nest-api
+    url = https://github.com/SauloAssisEngMec/nest-api.git
